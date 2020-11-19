@@ -1,3 +1,5 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
 adbkit filter=lfs diff=lfs merge=lfs -text
 tcpproxy filter=lfs diff=lfs merge=lfs -text
+tcpproxy/*/* filter=lfs diff=lfs merge=lfs -text
+adbkit/*/* filter=lfs diff=lfs merge=lfs -text
